@@ -20,3 +20,8 @@ console.log(x)
 const x = 5
 delete 5
 ```
+
+# Looping
+1. `for...in`: Works for arrays and objects. Loops over keys. Can use async await.
+2. `for...of`: For arrays only.
+3. `forEach(key, val)`: Arrays only. Can't use async await directly.
